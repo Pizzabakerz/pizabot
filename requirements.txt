@@ -13,7 +13,6 @@ lxml==3.5.0
 MarkupSafe==1.0
 pycups==1.9.73
 pycurl==7.43.0
-pygobject==3.20.0
 pymongo==3.7.1
 pyparsing==2.2.0
 python-aiml==0.9.1
