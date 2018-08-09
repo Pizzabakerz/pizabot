@@ -1,0 +1,166 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- std-startup.xml -->
+
+    <!-- Category is an atomic AIML unit -->
+    <category>
+
+        <!-- Pattern to match in user input -->
+        <!-- If user enters "LOAD AIML B" -->
+        <pattern>LOAD AIML B</pattern>
+
+        <!-- Template is the response to the pattern -->
+        <!-- This learn an aiml file -->
+        <template>
+            <learn>data/aiml/basic_chat.aiml</learn>
+            <learn>data/aiml/calender.aiml</learn>
+            <learn>data/aiml/a.aiml</learn>
+            <learn>data/aiml/1.aiml</learn>
+            <learn>data/aiml/A.aiml</learn>
+            <learn>data/aiml/B.aiml</learn>
+            <learn>data/aiml/C.aiml</learn>
+            <learn>data/aiml/D.aiml</learn>
+            <learn>data/aiml/W.aiml</learn>
+            <learn>data/aiml/E.aiml</learn>
+            <learn>data/aiml/F.aiml</learn>
+            <learn>data/aiml/G.aiml</learn>
+            <learn>data/aiml/H.aiml</learn>
+            <learn>data/aiml/I.aiml</learn>
+            <learn>data/aiml/J.aiml</learn>
+            <learn>data/aiml/K.aiml</learn>
+            <learn>data/aiml/L.aiml</learn>
+            <learn>data/aiml/M.aiml</learn>
+            <learn>data/aiml/N.aiml</learn>
+            <learn>data/aiml/O.aiml</learn>
+            <learn>data/aiml/P.aiml</learn>
+            <learn>data/aiml/Q.aiml</learn>
+            <learn>data/aiml/R.aiml</learn>
+            <learn>data/aiml/S.aiml</learn>
+            <learn>data/aiml/T.aiml</learn>
+            <learn>data/aiml/U.aiml</learn>
+            <learn>data/aiml/V.aiml</learn>
+            <learn>data/aiml/W.aiml</learn>
+            <learn>data/aiml/X.aiml</learn>
+            <learn>data/aiml/Y.aiml</learn>
+            <learn>data/aiml/Z.aiml</learn>
+            <learn>data/aiml/2.aiml</learn>
+            <learn>data/aiml/3.aiml</learn>
+            <learn>data/aiml/20q.aiml</learn>
+            <learn>data/aiml/battledome.aiml</learn>
+            <learn>data/aiml/binary.aiml</learn>
+            <learn>data/aiml/blackjack.aiml</learn>
+            <learn>data/aiml/bornin.aiml</learn>
+            <learn>data/aiml/botcompare.aiml</learn>
+            <learn>data/aiml/calendar.aiml</learn>
+            <learn>data/aiml/chatbots32.aiml</learn>
+            <learn>data/aiml/copyme.aiml</learn>
+            <learn>data/aiml/currency.aiml</learn>
+            <learn>data/aiml/daystoxmas.aiml</learn>
+            <learn>data/aiml/drphil.aiml</learn>
+            <learn>data/aiml/gender.aiml</learn>
+            <learn>data/aiml/hangman.aiml</learn>
+            <learn>data/aiml/happy.aiml</learn>
+            <learn>data/aiml/highroller.aiml</learn>
+            <learn>data/aiml/horoscope.aiml</learn>
+            <learn>data/aiml/howmany.aiml</learn>
+            <learn>data/aiml/jokes.aiml</learn>
+            <learn>data/aiml/knockknock.aiml</learn>
+            <learn>data/aiml/learn.aiml</learn>
+            <learn>data/aiml/luckyslots.aiml</learn>
+            <learn>data/aiml/maths.aiml</learn>
+            <learn>data/aiml/numberdrop.aiml</learn>
+            <learn>data/aiml/numberones.aiml</learn>
+            <learn>data/aiml/onthisday.aiml</learn>
+            <learn>data/aiml/poker.aiml</learn>
+            <learn>data/aiml/quizfacts.aiml</learn>
+            <learn>data/aiml/seasons.aiml</learn>
+            <learn>data/aiml/shutup.aiml</learn>
+            <learn>data/aiml/tictactoe.aiml</learn>
+            <learn>data/aiml/warnings.aiml</learn>
+            <learn>data/aiml/whatday_eng.aiml</learn>
+            <learn>data/aiml/wordplay.aiml</learn>
+            <learn>data/aiml/yomama.aiml</learn>
+            <learn>data/aiml/zbert.aiml</learn>            
+            <learn>data/aiml/ai.aiml</learn>
+            <learn>data/aiml/alice.aiml</learn>
+            <learn>data/aiml/astrology.aiml</learn>
+            <learn>data/aiml/atomic.aiml</learn>
+            <learn>data/aiml/badanswer.aiml</learn>
+            <learn>data/aiml/biography.aiml</learn>
+            <learn>data/aiml/bot.aiml</learn>
+            <learn>data/aiml/bot_profile.aiml</learn>
+            <learn>data/aiml/client.aiml</learn>
+            <learn>data/aiml/client_profile.aiml</learn>
+            <learn>data/aiml/computers.aiml</learn>
+            <learn>data/aiml/continuation.aiml</learn>
+            <learn>data/aiml/date.aiml</learn>
+            <learn>data/aiml/default.aiml</learn>
+            <learn>data/aiml/drugs.aiml</learn>
+            <learn>data/aiml/emotion.aiml</learn>
+            <learn>data/aiml/food.aiml</learn>
+            <learn>data/aiml/geography.aiml</learn>
+            <learn>data/aiml/gossip.aiml</learn>
+            <learn>data/aiml/history.aiml</learn>
+            <learn>data/aiml/humor.aiml</learn>
+            <learn>data/aiml/imponderables.aiml</learn>
+            <learn>data/aiml/inquiry.aiml</learn>
+            <learn>data/aiml/interjection.aiml</learn>
+            <learn>data/aiml/iu.aiml</learn>
+            <learn>data/aiml/knowledge.aiml</learn>
+            <learn>data/aiml/literature.aiml</learn>
+            <learn>data/aiml/loebner10.aiml</learn>
+            <learn>data/aiml/money.aiml</learn>
+            <learn>data/aiml/mp0.aiml</learn>
+            <learn>data/aiml/mp1.aiml</learn>
+            <learn>data/aiml/mp2.aiml</learn>
+            <learn>data/aiml/mp3.aiml</learn>
+            <learn>data/aiml/mp4.aiml</learn>
+            <learn>data/aiml/mp5.aiml</learn>
+            <learn>data/aiml/mp6.aiml</learn>
+            <learn>data/aiml/music.aiml</learn>
+            <learn>data/aiml/numbers.aiml</learn>
+            <learn>data/aiml/personality.aiml</learn>
+            <learn>data/aiml/phone.aiml</learn>
+            <learn>data/aiml/pickup.aiml</learn>
+            <learn>data/aiml/politics.aiml</learn>
+            <learn>data/aiml/primeminister.aiml</learn>
+            <learn>data/aiml/primitive-math.aiml</learn>
+            <learn>data/aiml/primitive-math.aiml</learn>
+            <learn>data/aiml/psychology.aiml</learn>
+            <learn>data/aiml/reduction.names.aiml</learn>
+            <learn>data/aiml/reduction0.safe.aiml</learn>
+            <learn>data/aiml/reduction1.safe.aiml</learn>
+            <learn>data/aiml/reduction2.safe.aiml</learn>
+            <learn>data/aiml/reduction3.safe.aiml</learn>
+            <learn>data/aiml/reduction4.safe.aiml</learn>
+            <learn>data/aiml/reductions-update.aiml</learn>
+            <learn>data/aiml/religion.aiml</learn>
+            <learn>data/aiml/salutations.aiml</learn>
+            <learn>data/aiml/science.aiml</learn>
+            <learn>data/aiml/sex.aiml</learn>
+            <learn>data/aiml/sports.aiml</learn>
+            <learn>data/aiml/stack.aiml</learn>
+            <learn>data/aiml/startup.aiml</learn>
+            <learn>data/aiml/stories.aiml</learn>
+            <learn>data/aiml/that.aiml</learn>
+            <learn>data/aiml/update1.aiml</learn>
+            <learn>data/aiml/update_mccormick.aiml</learn>
+            <learn>data/aiml/wallace.aiml</learn>
+            <learn>data/aiml/xfind.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>
+            <learn>data/aiml/.aiml</learn>            
+            <!-- You can add more aiml files here -->
+            <!--<learn>more_aiml.aiml</learn>-->
+        </template>
+        
+    </category>
+
+</aiml>

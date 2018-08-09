@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+ 
+<category>
+	<pattern>*</pattern>
+	<template>what do you mean by <star></template>
+</category>
+<category>
+<category>
+	<pattern>HOW ARE YOU DOING</pattern>
+	<template>
+		<random>
+			<li>I’m fine.</li>
+			<li>OK, I am doing alright.</li>
+			<li>Quite well, thanks.</li>
+			<li>Good, good, and you?</li>
+		</random>
+	</template>
+</category>
+</aiml>
