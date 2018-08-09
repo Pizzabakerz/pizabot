@@ -9,7 +9,6 @@ gunicorn==19.9.0
 itsdangerous==0.24
 Jinja2==2.10
 kiwisolver==1.0.1
-language-selector==0.1
 lightdm-gtk-greeter-settings==1.2.1
 lxml==3.5.0
 MarkupSafe==1.0
